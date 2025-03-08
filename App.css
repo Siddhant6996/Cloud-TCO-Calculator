@@ -1,0 +1,91 @@
+/* CloudPlatformCalculator.css */
+body {
+  background-image: url('https://cdn.midjourney.com/a02acd0d-cceb-41e1-b8a7-accfb5b6b67f/0_0.webp'); /* Replace 'your-image-url.jpg' with the URL of your image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cloud-platform-calculator {
+  max-width: 1200px;
+  margin: 20px auto; /* Added some margin */
+  padding: 30px; /* Increased padding for more space */
+  background-color: #ffffff; /* Transparent background */
+  border-radius: 10px; /* Increased border radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added a subtle shadow */
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+
+.cloud-platform-calculator h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cloud-platform-calculator h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.input-section {
+  margin-bottom: 20px;
+}
+
+.input-section label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-section select,
+.input-section input[type="number"] {
+  width: calc(100% - 20px); /* Adjusted width */
+  padding: 10px;
+  background-color: #dce0e3;
+  margin-bottom: 10px;
+  border: 1px solid #b60000;
+  border-radius: 5px;
+  font-family: Arial, sans-serif; /* Change font family */
+  font-size: 16px; /* Change input font size */
+}
+
+.input-section button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Arial, sans-serif; /* Change font family */
+  font-size: 16px; /* Change button font size */
+}
+
+.input-section button:hover {
+  background-color: #a20606;
+}
+
+.results {
+  margin-top: 20px;
+}
+
+.results table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.results th,
+.results td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-family: Arial, sans-serif; /* Change font family */
+  font-size: 16px; /* Change table font size */
+}
+
+.results th {
+  background-color: #ab0e0e;
+  color: #fff;
+}
